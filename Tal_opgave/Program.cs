@@ -19,7 +19,7 @@ namespace Tal_opgave
 
             heltal += 20;
 
-            Console.WriteLine(heltal);
+            Console.WriteLine($"Heltal = {heltal}");
 
             double kommatal = 12.5;
 
@@ -29,7 +29,7 @@ namespace Tal_opgave
 
             kommatal *= 20;
 
-            Console.WriteLine(kommatal);
+            Console.WriteLine($"Kommatal = {kommatal}");
 
             Console.ReadKey();
             
