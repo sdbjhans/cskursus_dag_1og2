@@ -19,7 +19,7 @@ namespace Tal_opgave
 
             heltal += 20;
 
-            Console.WriteLine($"Heltal = {heltal}");
+            Console.WriteLine($"Heltal er lig med : {heltal}");
 
             double kommatal = 12.5;
 
@@ -29,9 +29,17 @@ namespace Tal_opgave
 
             kommatal *= 20;
 
-            Console.WriteLine($"Kommatal = {kommatal}");
+            Console.WriteLine($"Kommatal er lig med: {kommatal}");
 
-            Console.ReadKey();
+            // Hold konsol åben ved debug
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                Console.Write("Press any key to continue ...");
+                Console.ReadKey();
+
+            }
+
+            
             
         }
     }
