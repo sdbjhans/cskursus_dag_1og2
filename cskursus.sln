@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler_text_opgave", "Va
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler_struct_enum", "Variabler_struct_enum\Variabler_struct_enum.csproj", "{46BF72FD-250D-4587-BFD6-7CB3B76D8FBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow_for_if_opgave", "Flow_for_if_opgave\Flow_for_if_opgave.csproj", "{0EF8D2B1-B65E-495A-A976-17D5B43CE01A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{46BF72FD-250D-4587-BFD6-7CB3B76D8FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46BF72FD-250D-4587-BFD6-7CB3B76D8FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46BF72FD-250D-4587-BFD6-7CB3B76D8FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF8D2B1-B65E-495A-A976-17D5B43CE01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF8D2B1-B65E-495A-A976-17D5B43CE01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF8D2B1-B65E-495A-A976-17D5B43CE01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF8D2B1-B65E-495A-A976-17D5B43CE01A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
