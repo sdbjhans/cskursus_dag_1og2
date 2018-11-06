@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow_for_if_opgave", "Flow_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder", "Metoder\Metoder.csproj", "{BA783B91-4A9D-428D-BEEE-6AA49BD0D473}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow_break_continue_opgave", "Flow_break_continue_opgave\Flow_break_continue_opgave.csproj", "{6C91A573-7DB3-4742-ACD0-F7FCA0BE3E23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{BA783B91-4A9D-428D-BEEE-6AA49BD0D473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA783B91-4A9D-428D-BEEE-6AA49BD0D473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA783B91-4A9D-428D-BEEE-6AA49BD0D473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C91A573-7DB3-4742-ACD0-F7FCA0BE3E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C91A573-7DB3-4742-ACD0-F7FCA0BE3E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C91A573-7DB3-4742-ACD0-F7FCA0BE3E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C91A573-7DB3-4742-ACD0-F7FCA0BE3E23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
