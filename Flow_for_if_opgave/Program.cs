@@ -11,33 +11,40 @@ namespace Flow_for_if_opgave
         static void Main(string[] args)
         {
 
-            int kolonne = 0;
-            int række = 0;
 
-            for (int h = 0; h < 10; h++)
+
+
+            for (int kolonne = 0; kolonne < 10; kolonne++)
             {
-                række++;
 
-                for (int v = 0; v < 10; v++)
+
+                for (int raekke = 0; raekke < 10; raekke++)
                 {
-                    kolonne++;
-                    int tal = kolonne * række;
-                    Console.Write(tal+"\t");
 
-                    if (tal > 50)
+                    string tal = (kolonne * raekke).ToString();
+
+
+                    if (kolonne * raekke > 50)
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
                     }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
+
+                    Console.Write(tal.PadLeft(4));
 
                 }
-                kolonne = 0;
-                Console.WriteLine("\r\n");
+
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Gray;
             }
 
-            
 
-            
-            række++;
+
+
+
 
 
 
